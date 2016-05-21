@@ -29,6 +29,8 @@ That's it. An animated ellipsis will be displayed on the element.
 document.querySelector( '.ae' ).animateEllipsis();
 ```
 
+![loading](loading.gif)
+
 ## License ##
 
 MIT. See [LICENSE.md](http://github.com/szchenghuang/animated-ellipsis/blob/master/LICENSE.md) for details.
