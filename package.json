@@ -10,7 +10,6 @@
     "spinning"
   ],
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/szchenghuang/animated-ellipsis.git"
@@ -24,5 +23,6 @@
   "dependencies": {},
   "devDependencies": {},
   "license": "MIT",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "author": "szchenghuang <szchenghuang@gmail.com>"
 }
