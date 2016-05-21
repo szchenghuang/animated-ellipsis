@@ -1,7 +1,7 @@
 {
   "name": "animated-ellipsis",
   "main": "./src/index.js",
-  "description": "Animated-Ellipsis is used to indicate that an action is being taken, nicely combined with a tip sentence.",
+  "description": "Animated-Ellipsis is used to indicate that an action is being executed, nicely combined with a tip sentence.",
   "homepage": "https://github.com/szchenghuang/animated-ellipsis#readme",
   "keywords": [
     "animation",
