@@ -1,0 +1,28 @@
+{
+  "name": "animated-ellipsis",
+  "main": "./src/index.js",
+  "description": "Animated-Ellipsis is used to indicate that an action is being taken, nicely combined with a tip sentence.",
+  "homepage": "https://github.com/szchenghuang/animated-ellipsis#readme",
+  "keywords": [
+    "animation",
+    "ellipsis",
+    "loading",
+    "spinning"
+  ],
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szchenghuang/animated-ellipsis.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/szchenghuang/animated-ellipsis/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT",
+  "version": "0.0.0"
+}
