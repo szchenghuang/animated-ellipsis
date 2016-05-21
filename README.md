@@ -17,6 +17,18 @@ npm install animated-ellipsis
 
 That's it. An animated ellipsis will be displayed on the element.
 
+## Configuration ##
+
+There are some settings you can tweak by setting data attributes on the element.
+
+```html
+<span class="ae" data-font-size="2rem" data-margin-left="0.1rem" data-spacing="0.1rem"></span>
+```
+
+* data-font-size: The font size of dots. Default: `2rem`.
+* data-margin-left: The spacing between the sibling text and the first dot. The value is set to `margin-left` of the first dot. Default: `0.1rem`.
+* data-spacing: The spacing between dots. The value is set to `margin-left` of the second and third dots. Default: `0.1rem`.
+
 ## Example ##
 
 ```html
