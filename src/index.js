@@ -39,6 +39,7 @@
         const spacing = wrapper.dataset.spacing || AnimatedEllipsis.spacing;
 
         wrapper.style.marginLeft = marginLeft;
+        wrapper.style.fontSize = AnimatedEllipsis.fontSize;
 
         for ( var iStep = 0; iStep < steps; ++iStep ) {
             var elemSpan = document.createElement( 'span' );
@@ -48,7 +49,6 @@
             elemSpan.innerHTML = '.';
             var cssText = '\
                 opacity: 0; \
-                font-size: ' + AnimatedEllipsis.fontSize + '; \
                 -webkit-animation: animated-ellipsis ' + AnimatedEllipsis.duration + 's infinite; \
                 animation: animated-ellipsis ' + AnimatedEllipsis.duration + 's infinite; \
                 -webkit-animation-delay: ' + delay+ 's; \
