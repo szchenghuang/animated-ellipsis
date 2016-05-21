@@ -1,6 +1,7 @@
 # Animated-Ellipsis #
 
 ![screenshot](animated-ellipsis.gif)
+
 Animated-Ellipsis is used to indicate that an action is being executed, nicely combined with a tip sentence.
 
 ## Install ##
