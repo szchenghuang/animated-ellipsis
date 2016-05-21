@@ -4,9 +4,9 @@
     function AE( config ) {
         this.className  = config && config.className  || 'animated-ellipsis';
         this.style      = config && config.style      || undefined;
-        this.spacing    = config && config.spacing    || '1rem';
+        this.spacing    = config && config.spacing    || '0.1rem';
         this.fontSize   = config && config.fontSize   || '2rem';
-        this.marginLeft = config && config.marginLeft || '1rem';
+        this.marginLeft = config && config.marginLeft || '0.1rem';
         this.steps      = 3; 
         this.duration   = 2;
         this.perDelay   = 0.2;
