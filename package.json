@@ -1,7 +1,7 @@
 {
   "name": "animated-ellipsis",
   "author": "szchenghuang <szchenghuang@gmail.com>",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Animated-Ellipsis is used to indicate that an action is being executed, nicely combined with a tip sentence.",
   "homepage": "https://github.com/szchenghuang/animated-ellipsis#readme",
   "keywords": [
