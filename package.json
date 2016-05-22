@@ -1,6 +1,8 @@
 {
   "name": "animated-ellipsis",
-  "main": "./src/index.js",
+  "private": true,
+  "author": "szchenghuang <szchenghuang@gmail.com>",
+  "version": "0.0.2",
   "description": "Animated-Ellipsis is used to indicate that an action is being executed, nicely combined with a tip sentence.",
   "homepage": "https://github.com/szchenghuang/animated-ellipsis#readme",
   "keywords": [
@@ -9,20 +11,18 @@
     "loading",
     "spinning"
   ],
-  "optionalDependencies": {},
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szchenghuang/animated-ellipsis/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/szchenghuang/animated-ellipsis.git"
   },
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bugs": {
-    "url": "https://github.com/szchenghuang/animated-ellipsis/issues"
-  },
   "dependencies": {},
   "devDependencies": {},
-  "license": "MIT",
-  "version": "0.0.2",
-  "author": "szchenghuang <szchenghuang@gmail.com>"
 }
