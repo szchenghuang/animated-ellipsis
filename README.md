@@ -1,6 +1,6 @@
 # Animated-Ellipsis #
 
-![screenshot](animated-ellipsis.gif)
+![animated-ellipsis](screenshots/animated-ellipsis.gif)
 
 Animated-Ellipsis is used to indicate that an action is being executed, nicely combined with a tip sentence.
 
@@ -38,10 +38,14 @@ There are some settings you can tweak by setting data attributes on the element.
 ```
 
 ```js
+// Import first.
+require( 'animated-ellipsis' );
+
+// Animate it.
 document.querySelector( '.ae' ).animateEllipsis();
 ```
 
-![loading](loading.gif)
+![loading](screenshots/loading.gif)
 
 ## License ##
 
