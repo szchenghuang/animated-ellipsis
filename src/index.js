@@ -69,10 +69,11 @@
     };
 
     window.NodeList.prototype.animateEllipsis = function() {
-        for ( elem of this ) {
+        for ( var iNode = 0; iNode < this.length; ++iNode ) {
+            var elem = this[ iNode ];
             animate( elem );
         }
-    }
+    };
 
     window.HTMLElement.prototype.stopAnimatingEllipsis = function() {
         var wrapper = this;
