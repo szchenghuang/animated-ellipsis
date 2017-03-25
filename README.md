@@ -10,6 +10,12 @@ Animated-Ellipsis is used to indicate that an action is being executed, nicely c
 npm install animated-ellipsis
 ```
 
+or
+
+```js
+<script src="https://cdn.rawgit.com/szchenghuang/animated-ellipsis/master/src/index.js"></script>
+```
+
 ## Usage ##
 
 * Put an element on the page with empty children.
