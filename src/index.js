@@ -31,6 +31,8 @@
         this.style = document.getElementsByTagName( 'head' )[ 0 ].appendChild( style );
     }
 
+    var AnimatedEllipsis = new AE();
+
     function animate( elem ) {
         var wrapper = elem;
         const steps = AnimatedEllipsis.steps;
@@ -83,8 +85,6 @@
 
         delete wrapper.style.marginLeft;
     };
-
-    AnimatedEllipsis = new AE();
 
     module.exports = AnimatedEllipsis;
 
