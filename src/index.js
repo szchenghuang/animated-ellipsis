@@ -1,12 +1,7 @@
 (function() {
   "use strict";
 
-  function AE( config ) {
-    this.className  = config && config.className  || 'animated-ellipsis';
-    this.style      = config && config.style      || undefined;
-    this.spacing    = config && config.spacing    || '0.1rem';
-    this.fontSize   = config && config.fontSize   || '2rem';
-    this.marginLeft = config && config.marginLeft || '0.1rem';
+  function AE() {
     this.steps      = 3; 
     this.duration   = 2;
     this.perDelay   = 0.2;
@@ -40,11 +35,12 @@
     const wrapper = node;
     const steps = AnimatedEllipsis.steps;
     const perDelay = AnimatedEllipsis.perDelay;
-    const marginLeft = wrapper.dataset.marginLeft || AnimatedEllipsis.marginLeft;
-    const spacing = wrapper.dataset.spacing || AnimatedEllipsis.spacing;
+    const fontSize = wrapper.dataset.fontSize;
+    const marginLeft = wrapper.dataset.marginLeft;
+    const spacing = wrapper.dataset.spacing;
 
+    wrapper.style.fontSize = fontSize;
     wrapper.style.marginLeft = marginLeft;
-    wrapper.style.fontSize = AnimatedEllipsis.fontSize;
 
     for ( var iStep = 0; iStep < steps; ++iStep ) {
       var elemSpan = document.createElement( 'span' );
