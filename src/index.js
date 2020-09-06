@@ -84,6 +84,10 @@
     delete wrapper.style.marginLeft;
   };
 
-  module.exports = AnimatedEllipsis;
+  if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+    module.exports = AnimatedEllipsis;
+  } else {
+    window.AnimatedEllipsis = AnimatedEllipsis;
+  }
 
 }());
